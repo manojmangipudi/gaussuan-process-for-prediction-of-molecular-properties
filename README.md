@@ -1,6 +1,6 @@
 # gp-s
 Gaussian Processes(GPs) is able to define probability distributions over sets of functions. 
-motivation is non-linear regression. In project the implementation of GPs works using SMILES strings and molecular fingerprints as input. 
+motivation is non-linear regression. In the project the implementation of GPs works using SMILES strings and molecular fingerprints as input. 
 this project deals with training of gaussian process using Gpytorch library.
 Tanimoto kernel in Gpytorch: Tanimoto kernel is defined in Gpytorch. Tanimoto kernel GPs on training molecules and evaluate on a heldout test set.
 
