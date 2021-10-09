@@ -1,0 +1,632 @@
+Id,CAS,SMILES,Status,Experimental value,Predicted value
+1,N.A.,S(=O)(=O)(O)c1ccc(C(CCCCCCCCCC)C)cc1,Training,0.34,0.13169912
+2,N.A.,OCCOCCOCCOCCOCCOCCOCCOCCOCCCCCCCCCCCCC,Training,-0.61,-1.303112
+3,N.A.,S(=O)(=O)(O)c1ccc(C(CCCCCCC)CCCC)cc1,Training,0.08,0.16582285
+4,N.A.,FC(F)(Oc1ccc(cc1)C(C)(CC(C)C)c2ccc(OC(F)(F)C(F)F)cc2)C(F)F,Training,2.61,3.1146164
+5,N.A.,FC(F)(Oc1ccc(cc1)C(c2ccc(OC(F)(F)C(F)F)cc2)C(CC)CCCC)C(F)F,Training,2.44,3.0531597
+6,N.A.,FC(F)(Oc1ccc(cc1)C(C)(C)CC(C)(C)C)C(F)F,Training,0.36,1.8914407
+7,N.A.,FC(F)(Oc1ccc(cc1)CCCCCCC)C(F)F,Training,0.29,1.2555759
+8,2-35-5,S=P(OC)(OC)Oc1c(C(#N))cc(Cl)cc1,Training,0.65,0.50454986
+9,37-99-2,c1cc(c(cc1Oc2ccc(cc2Br)Br)Br)Br,Training,1.43,1.8150654
+10,39-08-8,O(c1c(cc(c(c1)Br)Br)Br)c1c(cc(c(c1)Br)Br)Br,Training,2.01,2.2176332
+11,50-29-3,c(ccc(c1)Cl)(c1)C(c(ccc(c2)Cl)c2)C(Cl)(Cl)Cl ,Training,1.93,2.386174
+12,50-32-8,c(c(c(cc1)ccc2)c2cc3)(c3cc(c4ccc5)c5)c14 ,Training,0.05,-0.044038422
+13,53-70-3,c(c(c(c(c1)ccc2)c2)cc(c3c(c(c4)ccc5)c5)c4)(c1)c3,Training,0.21,0.612491
+14,55-38-9,COP(=S)(OC)Oc1ccc(SC)c(C)c1 ,Training,-0.36,0.40171313
+15,56-38-2,CCOP(=S)(OCC)Oc1ccc(cc1)N(=O)=O ,Training,-0.41,0.24564366
+16,58-89-9,C(C(C(C(C1Cl)Cl)Cl)Cl)(C1Cl)Cl,Training,1.6,1.1439793
+17,60-29-7,O(CC)CC ,Training,-0.7,-0.9382501
+18,60-51-5,O=C(NC)CSP(OC)(OC)=S ,Training,-1.01,-1.5231856
+19,60-57-1,ClC4=C(Cl)C5(Cl)C3C1CC(C2OC12)C3C4(Cl)C5(Cl)Cl ,Training,1.72,2.0437942
+20,62-44-2,CC(=O)Nc1ccc(OCC)cc1 ,Training,-0.55,-1.0235133
+21,62-53-3,Nc(cccc1)c1 ,Training,-0.78,-1.4874172
+22,67-72-1,C(C(Cl)(Cl)Cl)(Cl)(Cl)Cl ,Training,0.76,0.69628817
+23,71-55-6,C(Cl)(Cl)(Cl)C ,Training,-1.39,-0.08477047
+24,72-54-8,ClC(Cl)C(c1ccc(Cl)cc1)c2ccc(Cl)cc2,Training,2.44,1.9473436
+25,72-55-9,ClC(Cl)=C(c1ccc(Cl)cc1)c2ccc(Cl)cc2 ,Training,1.71,2.7572863
+26,75-09-2,ClCCl ,Training,-0.51,-0.62487787
+27,75-25-2,BrC(Br)Br ,Training,-0.7,-0.8182923
+28,75-35-4,C(=C)(Cl)Cl ,Training,-0.72,-0.40940326
+29,76-83-5,c(cccc1)(c1)C(c(cccc2)c2)(c(cccc3)c3)Cl ,Training,-0.15,0.32680205
+30,78-30-8,O=P(Oc(c(ccc1)C)c1)(Oc(c(ccc2)C)c2)Oc(c(ccc3)C)c3 ,Training,0.5,1.0506676
+31,78-40-0,O=P(OCC)(OCC)OCC ,Training,-1.09,-1.5534158
+32,78-59-1,O=C(C=C(CC1(C)C)C)C1 ,Training,-1.29,-0.623137
+33,78-63-7,O(OC(C)(C)C)C(CCC(OOC(C)(C)C)(C)C)(C)C,Training,0.77,1.0384475
+34,78-79-5,C(C=C)(=C)C ,Training,-0.61,-0.4263702
+35,78-87-5,ClCC(Cl)C ,Training,-1.06,-0.41860315
+36,79-01-6,C(=CCl)(Cl)Cl ,Training,-0.41,0.2487604
+37,79-34-5,C(C(Cl)Cl)(Cl)Cl ,Training,-0.67,-0.17215227
+38,79-46-9,N(=O)(=O)C(C)C ,Training,-1.2,-1.1807511
+39,80-05-7,Oc(ccc(c1)C(c(ccc(O)c2)c2)(C)C)c1 ,Training,0.27,-0.22405893
+40,80-43-3,O(OC(c(cccc1)c1)(C)C)C(c(cccc2)c2)(C)C ,Training,-0.01,0.56272846
+41,81-03-8,c12c(ccc(C)c1)C(CC2(C)C)(C)C,Training,0.69,0.44255707
+42,82-45-1,O=C(c(c(c(N)cc1)C(=O)c2cccc3)c1)c23 ,Training,-0.59,-0.9002185
+43,82-68-8,O=N(=O)c(c(c(c(c1Cl)Cl)Cl)Cl)c1Cl ,Training,-0.17,0.5716818
+44,83-79-4,COc5cc4OCC3Oc2c1CC(Oc1ccc2C(=O)C3c4cc5OC)C(C)=C ,Training,-0.59,-1.167887
+45,84-74-2,O=C(OCCCC)c(c(ccc1)C(=O)OCCCC)c1 ,Training,-0.4,-1.0938246
+46,85-68-7,O=C(OCc(cccc1)c1)c(c(ccc2)C(=O)OCCCC)c2 ,Training,-1.03,-1.497689
+47,86-30-6,O=NN(c(cccc1)c1)c(cccc2)c2 ,Training,-0.91,-0.910199
+48,86-73-7,c(c(c(c1ccc2)c2)ccc3)(c3)C1,Training,0.7,0.41250834
+49,86-74-8,n(c(c(c1cccc2)ccc3)c3)c12 ,Training,0.06,0.5192416
+50,87-61-6,c(c(c(cc1)Cl)Cl)(c1)Cl ,Training,0.92,0.7095146
+51,87-68-3,C(=C(C(=C(Cl)Cl)Cl)Cl)(Cl)Cl ,Training,2.07,1.428245
+52,87-82-1,c(c(c(c(c1Br)Br)Br)Br)(c1Br)Br ,Training,0.43,0.86519915
+53,87-83-2,c(c(c(c(c1Br)Br)Br)Br)(c1Br)C ,Training,-0.13,1.0088376
+54,87-84-3,BrC(C(C(Br)C(Br)C1Br)Cl)C1Br ,Training,-0.31,0.4017405
+55,87-86-5,Oc(c(c(c(c1Cl)Cl)Cl)Cl)c1Cl ,Training,-0.2,0.34264678
+56,88-06-2,Oc(c(cc(c1)Cl)Cl)c1Cl ,Training,-0.57,-0.14325254
+57,88-19-7,O=S(=O)(N)c(c(ccc1)C)c1 ,Training,-0.89,-0.98932046
+58,88-72-2,N(=O)(=O)c(c(ccc1)C)c1 ,Training,-0.48,-0.4571323
+59,88-74-4,N(=O)(=O)c(c(N)ccc1)c1 ,Training,-0.46,-1.2896755
+60,88-98-2,O=C(O)C(C(C(=O)O)CC=C1)C1 ,Training,-0.57,-0.595364
+61,89-61-2,O=N(=O)c(c(ccc1Cl)Cl)c1 ,Training,0.56,0.025701307
+62,89-69-0,O=N(=O)c(c(cc(c1Cl)Cl)Cl)c1 ,Training,-0.64,0.24996462
+63,90-41-5,Nc(c(c(cccc1)c1)ccc2)c2 ,Training,-1.06,-0.024783775
+64,90-94-8,O=C(c(ccc(N(C)C)c1)c1)c(ccc(N(C)C)c2)c2 ,Training,-0.77,-0.5260012
+65,91-15-6,C(#N)c(c(C(#N))ccc1)c1 ,Training,-0.67,-0.61539924
+66,91-20-3,c(c(ccc1)ccc2)(c1)c2 ,Training,0.41,0.6559879
+67,91-22-5,n(c(c(ccc1)cc2)c1)c2 ,Training,-1.33,-0.75961065
+68,91-23-6,O=N(=O)c(c(OC)ccc1)c1 ,Training,-1.04,-0.60629064
+69,91-57-6,c(c(ccc1C)ccc2)(c2)c1 ,Training,0.88,0.61664045
+70,91-94-1,Nc(c(cc(c(ccc(N)c1Cl)c1)c2)Cl)c2 ,Training,-0.13,0.13653299
+71,91-96-3,O=C(Nc(c(cc(c(ccc(NC(=O)CC(=O)C)c1C)c1)c2)C)c2)CC(=O)C ,Training,-1.5,-1.7387229
+72,92-51-3,C(C(CCCC1)C1)(CCCC2)C2,Training,0.38,0.8259608
+73,92-69-3,Oc(ccc(c(cccc1)c1)c2)c2 ,Training,-0.81,-0.10026013
+74,92-84-2,N(c(c(Sc1cccc2)ccc3)c3)c12 ,Training,0.04,-0.086412475
+75,92-86-4,c(ccc(c(ccc(c1)Br)c1)c2)(c2)Br ,Training,1.57,1.8127803
+76,94-52-0,N(=O)(=O)c(ccc(ncn1)c12)c2 ,Training,-1.15,-0.662128
+77,95-16-9,c1ccc2ncsc2c1 ,Training,-0.86,-0.85262394
+78,95-48-7,Oc(c(ccc1)C)c1 ,Training,-0.52,-0.95908713
+79,95-49-8,c(c(ccc1)Cl)(c1)C ,Training,-0.72,0.29598665
+80,95-50-1,c(c(ccc1)Cl)(c1)Cl ,Training,0.5,0.53371924
+81,95-51-2,Nc(c(ccc1)Cl)c1 ,Training,-0.61,-0.55367553
+82,95-56-7,C1=CC=C(C(=C1)O)Br,Training,-0.24,-0.6969418
+83,95-57-8,Oc(c(ccc1)Cl)c1 ,Training,-0.38,-0.6629595
+84,95-64-7,Nc(ccc(c1C)C)c1 ,Training,-0.99,-1.0182343
+85,95-76-1,Nc(ccc(c1Cl)Cl)c1 ,Training,-1.09,-0.28767517
+86,95-82-9,Nc(c(ccc1Cl)Cl)c1 ,Training,-1.13,-0.38756138
+87,95-94-3,c(c(cc(c1Cl)Cl)Cl)(c1)Cl ,Training,1.79,0.9307967
+88,96-18-4,ClCC(Cl)CCl ,Training,-0.53,-0.2778996
+89,96-76-4,Oc(c(cc(c1)C(C)(C)C)C(C)(C)C)c1 ,Training,-0.37,0.30134463
+90,98-08-8,FC(F)(F)c(cccc1)c1 ,Training,-0.48,-0.06268877
+91,98-10-2,O=S(=O)(N)c(cccc1)c1 ,Training,-0.71,-1.5439521
+92,98-84-0,CC(N)c1ccccc1,Training,-0.9,-0.9011274
+93,98-95-3,N(=O)(=O)c(cccc1)c1 ,Training,-0.93,-1.0050025
+94,99-71-8,Oc(ccc(c1)C(CC)C)c1 ,Training,-0.84,-0.58110327
+95,99-99-0,N(=O)(=O)c(ccc(c1)C)c1 ,Training,-1.01,-0.45344424
+96,100-00-5,N(=O)(=O)c(ccc(c1)Cl)c1 ,Training,-0.48,-0.19259952
+97,100-01-6,N(=O)(=O)c(ccc(N)c1)c1 ,Training,-0.51,-1.2896755
+98,100-17-4,O=N(=O)c(ccc(OC)c1)c1 ,Training,-0.95,-0.51408803
+99,100-61-8,N(c(cccc1)c1)C ,Training,-0.88,-1.0447112
+100,101-14-4,Nc(c(cc(c1)Cc(ccc(N)c2Cl)c2)Cl)c1 ,Training,-0.15,-0.08041876
+101,101-53-1,Oc(ccc(c1)Cc(cccc2)c2)c1 ,Training,-0.86,-0.45740727
+102,101-84-8,O(c(cccc1)c1)c(cccc2)c2 ,Training,-0.09,-0.14707956
+103,103-44-6,O(CC(CCCC)CC)C=C ,Training,0.95,-0.04691901
+104,104-72-3,c(cccc1)(c1)CCCCCCCCCC,Training,0.63,0.7770068
+105,104-88-1,O=Cc(ccc(c1)Cl)c1 ,Training,0.01,0.0883809
+106,105-06-6,c(ccc(c1)C=C)(c1)C=C,Training,0.5,0.8830029
+107,106-43-4,c(ccc(c1)Cl)(c1)C ,Training,-0.83,0.2683258
+108,106-46-7,c(ccc(c1)Cl)(c1)Cl ,Training,1.1,0.53679264
+109,106-93-4,BrCCBr ,Training,-0.83,-0.8210785
+110,107-05-1,C(=C)CCl ,Training,-0.93,-0.45790783
+111,108-36-1,c(cccc1Br)(c1)Br ,Training,1.16,0.44116747
+112,108-42-9,Nc(cccc1Cl)c1 ,Training,-0.71,-0.5598224
+113,108-57-6,c(cccc1C=C)(c1)C=C,Training,0.59,0.8830029
+114,108-67-8,c(cc(cc1C)C)(c1)C ,Training,0.4,-0.08408375
+115,108-70-3,c(cc(cc1Cl)Cl)(c1)Cl ,Training,1.19,0.79049927
+116,108-86-1,c(cccc1)(c1)Br ,Training,-1.19,-0.32336146
+117,108-90-7,c(cccc1)(c1)Cl ,Training,-1.02,-0.2740122
+118,109-09-1,n(c(ccc1)Cl)c1 ,Training,-0.85,-0.9121231
+119,110-00-9,O1C=CC=C1 ,Training,-0.84,-0.49107608
+120,110-82-7,C(CCCC1)C1 ,Training,-0.66,-0.118183546
+121,111-44-4,O(CCCl)CCCl ,Training,-0.81,-0.7121645
+122,112-40-3,C(CCCCCCCCCC)C,Training,0.26,0.70111495
+123,112-41-4,C(=C)CCCCCCCCCC,Training,0.83,0.6988675
+124,115-32-2,OC(c1ccc(Cl)cc1)(c2ccc(Cl)cc2)C(Cl)(Cl)Cl ,Training,1.99,1.5111632
+125,115-86-6,O=P(Oc(cccc1)c1)(Oc(cccc2)c2)Oc(cccc3)c3 ,Training,-0.76,-0.66317064
+126,115-96-8,O=P(OCCCl)(OCCCl)OCCCl ,Training,-0.66,-1.2019937
+127,117-18-0,Clc1cc(Cl)c(Cl)c(N(=O)=O)c1Cl ,Training,0.49,0.4712467
+128,117-81-7,O=C(OCC(CCCC)CC)c(c(ccc1)C(=O)OCC(CCCC)CC)c1 ,Training,0.44,-0.22440325
+129,118-44-5,N(c(c(c(ccc1)cc2)c1)c2)CC ,Training,0.43,0.30546173
+130,118-74-1,c(c(c(c(c1Cl)Cl)Cl)Cl)(c1Cl)Cl ,Training,2.44,1.3334063
+131,119-12-0,S=P(OCC)(OCC)OC1=NN(c2ccccc2)C(=O)C=C1 ,Training,-0.7,0.2517245
+132,119-47-1,Oc(c(cc(c1)C)Cc(c(O)c(cc2C)C(C)(C)C)c2)c1C(C)(C)C ,Training,0.03,-0.14961146
+133,119-56-2,OC(c(cccc1)c1)c(ccc(c2)Cl)c2 ,Training,-0.89,-0.19616407
+134,119-64-2,c(c(ccc1)CCC2)(c1)C2 ,Training,0.75,-0.24775298
+135,120-12-7,c(c(ccc1)cc(c2ccc3)c3)(c1)c2,Training,0.65,0.40397185
+136,120-71-8,O(c(c(N)cc(c1)C)c1)C ,Training,-1,-1.005116
+137,120-78-5,N(c(c(S1)ccc2)c2)=C1SSC(=Nc(c3ccc4)c4)S3 ,Training,-0.91,-0.86440676
+138,120-83-2,Oc(c(cc(c1)Cl)Cl)c1 ,Training,-0.94,-0.3600782
+139,121-69-7,N(c(cccc1)c1)(C)C ,Training,-0.96,-1.1297799
+140,122-14-5,COP(=S)(OC)Oc1ccc(N(=O)=O)c(C)c1 ,Training,0.03,-0.10512215
+141,122-34-9,n(c(nc(n1)NCC)NCC)c1Cl ,Training,-0.94,-1.0585204
+142,122-39-4,N(c(cccc1)c1)c(cccc2)c2 ,Training,0.35,-0.5825212
+143,123-48-8,C(C)(C)(C)C=C(C)CC(C)(C)C,Training,0.7,1.2698466
+144,124-11-8,C(=C)CCCCCCC ,Training,0.52,0.4428226
+145,126-73-8,O=P(OCCCC)(OCCCC)OCCCC ,Training,-0.76,-0.53830355
+146,127-90-2,C(C(C(Cl)(Cl)Cl)Cl)OCC(C(Cl)(Cl)Cl)Cl,Training,1.04,0.99521834
+147,128-37-0,Oc(c(cc(c1)C)C(C)(C)C)c1C(C)(C)C ,Training,0.32,0.062224712
+148,132-64-9,o(c(c(c1cccc2)ccc3)c3)c12 ,Training,1.35,0.016384007
+149,135-88-6,N(c(ccc(c1ccc2)c2)c1)c(cccc3)c3 ,Training,-0.41,0.5265937
+150,137-26-8,N(C(=S)SSC(N(C)C)=S)(C)C ,Training,-1.18,-0.85146815
+151,140-66-9,Oc(ccc(c1)C(CC(C)(C)C)(C)C)c1,Training,-0.04,0.55117255
+152,141-93-5,c(cccc1CC)(c1)CC ,Training,0.09,0.33433047
+153,142-96-1,O(CCCC)CCCC ,Training,-0.25,-0.20413804
+154,144-19-4,OCC(C(O)C(C)C)(C)C ,Training,-1.34,-1.3303028
+155,156-43-4,O(c(ccc(N)c1)c1)CC ,Training,-1.24,-0.9591203
+156,208-96-8,c1ccc2cccc3c2c1C=C3 ,Training,0.52,0.37876815
+157,214-17-5,c1cc2cc3c4ccc5ccccc5c4ccc3cc2cc1,Training,0.58,0.7231342
+158,217-59-4,c1ccc2c3ccccc3c4ccccc4c2c1,Training,-0.08,0.39871535
+159,218-01-9,c1ccc2ccc3c4ccccc4ccc3c2c1,Training,0.59,0.4970649
+160,226-36-8,c1ccc4c(c1)ccc5nc2c(ccc3ccccc23)cc45 ,Training,-0.14,-0.29428807
+161,243-17-4,c1ccc2c3cc4ccccc4cc3Cc2c1,Training,-0.39,0.21488188
+162,294-62-2,C(CCCCCCCCCC1)C1 ,Training,1.33,1.0677974
+163,298-00-0,COP(=S)(OC)Oc1ccc(cc1)N(=O)=O ,Training,0.55,-0.02889363
+164,298-04-4,CCOP(=S)(OCC)SCCSCC ,Training,0.03,0.04879768
+165,314-40-9,N1C(=O)N(C(C)CC)C(=O)C(Br)=C1C ,Training,-1.33,-1.971454
+166,319-86-8,C(C(C(C(C1Cl)Cl)Cl)Cl)(C1Cl)Cl,Training,1.7,1.1439793
+167,320-60-5,FC(F)(F)c(c(cc(c1)Cl)Cl)c1 ,Training,1.81,0.98307484
+168,328-84-7,FC(F)(F)c(ccc(c1Cl)Cl)c1 ,Training,1.52,0.98307484
+169,330-54-1,O=C(N(C)C)Nc(ccc(c1Cl)Cl)c1 ,Training,-1.45,-0.94880617
+170,330-55-2,O=C(N(OC)C)Nc(ccc(c1Cl)Cl)c1 ,Training,-0.97,-0.82995147
+171,333-41-5,O(P(OCC)(Oc(nc(nc1C)C(C)C)c1)=S)CC ,Training,0.07,0.15225977
+172,438-22-2,C(CC1)C(CCC2C(CCC3)(C4C3)C)(C1C2CC4)C,Training,1.67,1.8103523
+173,475-03-6,c(c(ccc1C)C(CC2)(C)C)(c1)C2,Training,0.83,0.48045406
+174,488-23-3,c1(C)c(C)c(C)c(C)cc1,Training,1.17,-0.18333222
+175,493-01-6,C(C(CCC1)CCC2)(C1)C2,Training,1.41,0.9460679
+176,500-28-7,COP(=S)(OC)Oc1ccc(N(=O)=O)c(Cl)c1 ,Training,-0.47,0.17563833
+177,510-15-6,O=C(OCC)C(O)(c(ccc(c1)Cl)c1)c(ccc(c2)Cl)c2 ,Training,-0.08,0.2428763
+178,526-73-8,c(c(c(cc1)C)C)(c1)C ,Training,-0.22,-0.076369435
+179,527-60-6,Oc(c(cc(c1)C)C)c1C ,Training,-1.3,-1.1422784
+180,540-97-6,C[Si]1(O[Si](O[Si](O[Si](O[Si](C)(C)O[Si](O1)(C)C)(C)C)(C)C)(C)C)C,Training,2.34,1.2887603
+181,541-73-1,c(cccc1Cl)(c1)Cl ,Training,-0.21,0.5644534
+182,542-18-7,C(CCCC1)(C1)Cl ,Training,0.41,0.044876974
+183,555-03-3,O=N(=O)c(cccc1OC)c1 ,Training,-1.04,-0.47413352
+184,556-67-2,C[Si]1(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O1 ,Training,1.88,1.2305285
+185,575-41-7,Cc2cc(C)c1ccccc1c2,Training,0.51,0.57729304
+186,591-35-5,Oc1cc(Cl)cc(Cl)c1 ,Training,-0.91,-0.1879666
+187,603-11-2,O=C(O)c(c(c(N(=O)(=O))cc1)C(=O)O)c1 ,Training,-1.57,-1.6212013
+188,605-02-7,c(ccc1c(c2)c(ccc3)cc3)cc1cc2,Training,1.72,0.99730605
+189,606-28-0,O=C(OC)c(c(ccc1)C(=O)c(cccc2)c2)c1 ,Training,-1.3,-0.8923791
+190,610-39-9,O=N(=O)c(c(N(=O)=O)ccc1C)c1 ,Training,-1.4,-0.946095
+191,611-06-3,O=N(=O)c(c(cc(c1)Cl)Cl)c1 ,Training,0.83,0.01955447
+192,611-21-2,N(c(c(ccc1)C)c1)C ,Training,-0.74,-0.49929976
+193,613-12-7,Cc1cc2cc3ccccc3cc2cc1,Training,-0.02,0.32845026
+194,616-44-4,C1(C)=CSC=C1 ,Training,-1.27,-0.53670514
+195,618-62-2,O=N(=O)c(cc(cc1Cl)Cl)c1 ,Training,0.57,0.025701307
+196,626-17-5,N#Cc(cccc1C#N)c1 ,Training,-0.62,-0.6737942
+197,629-50-5,CCCCCCCCCCCCC  ,Training,1.03,0.88162667
+198,629-73-2,C(=C)CCCCCCCCCCCCCC,Training,1.67,1.2554412
+199,634-66-2,c(c(c(c(c1)Cl)Cl)Cl)(c1)Cl ,Training,0.69,0.9307967
+200,634-67-3,Nc1ccc(Cl)c(Cl)c1Cl,Training,-0.27,-0.06777618
+201,634-91-3,Nc1cc(Cl)c(Cl)c(Cl)c1,Training,0.28,-0.0708496
+202,636-28-2,c(c(cc(c1Br)Br)Br)(c1)Br ,Training,1.35,0.7207986
+203,636-30-6,Nc(c(cc(c1Cl)Cl)Cl)c1,Training,-0.01,-0.16627932
+204,696-44-6,N(c(cccc1C)c1)C ,Training,-0.79,-0.49007952
+205,732-26-3,Oc(c(cc(c1)C(C)(C)C)C(C)(C)C)c1C(C)(C)C ,Training,1.81,0.59532434
+206,760-23-6,C(C(Cl)CCl)=C ,Training,-1.28,-0.20621523
+207,764-13-6,C(=CC=C(C)C)(C)C ,Training,0.49,0.8294789
+208,779-02-2,c(c(c(c(c1ccc2)c2)C)ccc3)(c3)c1,Training,0.23,0.38306502
+209,791-31-1,O[Si](c1ccccc1)(c2ccccc2)c3ccccc3 ,Training,0.07,0.50122863
+210,821-95-4,C(=C)CCCCCCCCC,Training,0.09,0.55972403
+211,877-10-1,ClC1=C(C)C(Cl)=C(Cl)C(C)=C1Cl ,Training,1.12,0.84429526
+212,877-11-2,Cc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl ,Training,1.4,1.0649395
+213,879-39-0,Clc1cc(N(=O)=O)c(Cl)c(Cl)c1Cl ,Training,-0.69,0.33026886
+214,883-20-5,c(ccc1c(ccc2)c3c2)cc1cc3C,Training,0.12,0.32845026
+215,933-12-0,C1(C)(C)CC(C)C=CC1,Training,0.72,0.38882163
+216,961-11-5,COP(=O)(OC)OC(=CCl)c1cc(Cl)c(Cl)cc1Cl ,Training,-1.02,0.39274094
+217,1024-57-3,ClC2C1OC1C3C2C4(Cl)C(=C(Cl)C3(Cl)C4(Cl)Cl)Cl ,Training,2.2,1.5281976
+218,1163-19-5,O(c(c(c(c(c1Br)Br)Br)Br)c1Br)c(c(c(c(c2Br)Br)Br)Br)c2Br ,Training,1.16,3.0227692
+219,1241-94-7,O=P(Oc1ccccc1)(Oc2ccccc2)OCC(CC)CCCC ,Training,-0.15,-0.25240391
+220,1544-19-0,FC(F)C(F)(F)Oc1ccc(C(C)(C)c2ccc(OC(F)(F)C(F)F)cc2)cc1,Training,2.79,2.7142763
+221,1582-09-8,CCCN(CCC)c1c(cc(cc1N(=O)(=O))C(F)(F)F)N(=O)(=O) ,Training,0.62,-0.25067413
+222,1634-04-4,O(C(C)(C)C)C ,Training,-0.88,-0.8154542
+223,1678-98-4,C(C)(C)CC1CCCCC1,Training,0.91,0.45472136
+224,1712-70-5,c1cc(Cl)ccc1C(C)=C ,Training,1.3,0.7664101
+225,1732-13-4,c1c(CC3)c2c(C3)ccc(CC4)c2c(C4)c1,Training,0.42,0.44430083
+226,1746-01-6,Clc3cc2Oc1cc(Cl)c(Cl)cc1Oc2cc3Cl ,Training,1.78,1.0099531
+227,1825-21-4,COc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl ,Training,2.67,1.8393613
+228,1825-31-6,c(c(c(cc1)Cl)ccc2)(c1Cl)c2 ,Training,2.37,1.1203734
+229,1889-67-4,c(cccc1)(c1)C(C(c(cccc2)c2)(C)C)(C)C,Training,0.87,1.1851794
+230,1897-45-6,N#Cc(c(c(c(c1C#N)Cl)Cl)Cl)c1Cl ,Training,0.27,0.11052581
+231,1912-24-9,n(c(nc(n1)NC(C)C)NCC)c1Cl ,Training,-1.05,-0.93265617
+232,2027-17-0,c(c(ccc1C(C)C)ccc2)(c2)c1,Training,1,0.8942368
+233,2042-14-0,c1c(O)ccc(C)c1N(=O)=O ,Training,-0.8,-1.29192
+234,2051-24-3,Clc1c(Cl)c(Cl)c(c(Cl)c1Cl)c2c(Cl)c(Cl)c(Cl)c(Cl)c2Cl,Training,2.86,2.9730046
+235,2051-30-1,CCC(C)CCCC(C)C,Training,0.61,0.36176875
+236,2104-64-5,CCOP(=S)(Oc1ccc(cc1)N(=O)=O)c2ccccc2 ,Training,0.02,0.48705482
+237,2104-96-3,COP(=S)(OC)Oc1cc(Cl)c(Br)cc1Cl ,Training,0.97,1.0710316
+238,2189-60-8,c(cccc1)(c1)CCCCCCCC,Training,0.22,0.4778822
+239,2212-67-1,CCSC(=O)N1CCCCCC1 ,Training,-1.08,-0.9607626
+240,2216-69-5,O(c(c(c(ccc1)cc2)c1)c2)C ,Training,0.39,0.5344827
+241,2221-95-6,CC1CCCC2(C1CCC3C2CCC(C3)C(C)C)C,Training,1.52,2.1450973
+242,2234-13-1,c(c(c(c(c1Cl)Cl)Cl)c(c(c2Cl)Cl)Cl)(c1Cl)c2Cl ,Training,1.62,2.2857418
+243,2255-17-6,O=P(OC)(OC)Oc1cc(C)c(N(=O)(=O))cc1 ,Training,0.01,-1.359605
+244,2381-21-7,c12c3c4cccc3ccc1c(C)ccc2C=C4,Training,0.11,-0.28170222
+245,2385-85-5,ClC2(Cl)C4(Cl)C1(Cl)C5(Cl)C(Cl)(Cl)C3(Cl)C1(Cl)C2(Cl)C3(Cl)C45Cl ,Training,1.8,2.1266584
+246,2460-49-3,COc1cc(Cl)c(Cl)cc1O ,Training,-0.15,-0.4662163
+247,2463-84-5,COP(=S)(OC)Oc1ccc(cc1Cl)N(=O)=O ,Training,0.01,0.21559279
+248,218-20-8,CCOP(=S)(OCC)SCCS(=O)(=O)CC,Training,-0.67,-0.6939144
+249,2498-66-0,O=C(c(c(c(c(c1)ccc2)c2)C(=O)c3cccc4)c1)c34 ,Training,-0.84,-0.78971195
+250,2541-69-7,Cc2c1ccccc1cc3c2ccc4ccccc34,Training,-0.05,0.3649923
+251,254-64-2,CCOC(=O)C(SP(=S)(OC)OC)c1ccccc1 ,Training,-0.75,-1.2128226
+252,2631-40-5,O=C(Oc(c(ccc1)C(C)C)c1)NC ,Training,-1.25,-1.0644068
+253,2921-88-2,CCOP(=S)(OCC)Oc1nc(Cl)c(Cl)cc1Cl ,Training,0.77,0.32264593
+254,3074-71-3,CCCCC(C)C(C)C,Training,1.28,0.25674906
+255,3194-55-6,C1CCCCC(C(C(CCCC1)(Br)Br)(Br)Br)(Br)Br,Training,2.11,1.4915993
+256,3209-22-1,O=N(=O)c(c(c(cc1)Cl)Cl)c1 ,Training,0.54,0.013407633
+257,3268-87-9,Clc3c(Cl)c(Cl)c2Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1Oc2c3Cl,Training,1.16,1.5330323
+258,3296-90-0,OCC(CBr)(CBr)CO ,Training,-1.4,-1.6607192
+259,3321-50-4,C(CCC1CCC(CCC2)CC2)CC1,Training,0.13,1.1042477
+260,3761-41-9,COP(=S)(OC)Oc1ccc(S(C)=O)c(C)c1 ,Training,-0.38,-0.10518083
+261,3766-81-2,O=C(Oc(c(ccc1)C(CC)C)c1)NC ,Training,-0.52,-0.93174815
+262,3846-71-7,Oc(c(cc(c1)C(C)(C)C)C(C)(C)C)c1n(nc(c2ccc3)c3)n2 ,Training,0.89,0.7452889
+263,3864-99-1,Oc(c(cc(c1)C(C)(C)C)C(C)(C)C)c1n(nc(c2cc(c3)Cl)c3)n2 ,Training,0.72,0.966571
+264,3891-98-3,CCC(C)CCCC(C)CCCC(C)C,Training,1.36,1.0403959
+265,4101-68-2,C(CCCCCBr)CCCCBr,Training,-0.47,0.3631264
+266,4175-54-6,c12c(C(C)CCC1C)cccc2,Training,0.72,0.15069853
+267,4292-75-5,C(CCCC1)(C1)CCCCCC,Training,0.7,0.784222
+268,4316-65-8,C=CC(C)CC(C)(C)C,Training,1.07,0.3152988
+269,4821-19-6,C1(c2c(O)c(C3CCCCC3)ccc2)CCCCC1 ,Training,0.2,0.31332585
+270,4883-72-1,O=NN(C1CCCCC1)O ,Training,-0.9,-1.1546975
+271,4904-61-4,C(=CCCC=CCCC=CC1)C1 ,Training,1.74,1.1972231
+272,4920-95-0,c(cc(c1)c(ccc2C)cc2C)c(c1C)C,Training,-0.01,1.1809659
+273,5103-74-2,ClC1CC2C(C1Cl)C3(Cl)C(=C(Cl)C2(Cl)C3(Cl)Cl)Cl ,Training,2.05,2.0908933
+274,5124-25-4,O=S(=O)(Nc(cccc1)c1)c(ccc(Nc(cccc2)c2)c3N(=O)(=O))c3 ,Training,-0.66,-0.4081248
+275,5323-56-8,CC1CCCC2(C1CCc3c2ccc(c3)C(C)C)C,Training,0.59,2.05287
+276,5428-54-6,O=N(=O)c(ccc(c1O)C)c1 ,Training,-1.24,-1.2027907
+277,5436-43-1,BrC1=CC(Br)=CC=C1OC2=CC=C(C=C2Br)Br,Training,1.6,1.8150654
+278,5707-44-8,CCc2ccc(cc2)c1ccccc1,Training,0.06,0.9184749
+279,6117-97-1,CCCCCCCCC(C)CCC,Training,0.98,0.83041286
+280,6639-30-1,c(c(cc(c1Cl)Cl)Cl)(c1)C ,Training,2.01,0.6927568
+281,6842-15-5,CCCCCCCCCCC=C,Training,0.51,0.6988675
+282,6975-98-0,CCCCCCCCC(C)C,Training,0.1,0.552126
+283,7012-37-5,Clc1cc(Cl)ccc1c2ccc(Cl)cc2,Training,1.88,1.9961473
+284,7045-71-8,CCCCCCCCCC(C)C,Training,0.84,0.6912694
+285,10394-57-7,c3cccc2c3c(CCCC)cc1c2cccc1,Training,0.29,0.7515763
+286,12789-03-6,ClC(C(Cl)C1)C(C1C2(Cl)C=3Cl)C(Cl)(C3Cl)C2(Cl)Cl ,Training,2.74,2.0908933
+287,13475-82-6,C(C)(C)(C)CC(C)CC(C)(C)C,Training,0.72,0.82729644
+288,13674-84-5,O=P(OC(CCl)C)(OC(CCl)C)OC(CCl)C ,Training,-1.31,-0.8674285
+289,13674-87-8,O=P(OC(CCl)CCl)(OC(CCl)CCl)OC(CCl)CCl ,Training,-0.52,-0.38692272
+290,13936-21-5,O=C(c(c(C(=O)c1cccc2)ccc3CCCCC)c3)c12 ,Training,0.2,0.091176875
+291,15258-73-8,c1c(Cl)c(CO)c(Cl)cc1 ,Training,-1.37,-0.64101833
+292,15716-08-2,CCCCCCCCCCCCCCCC,Training,1.47,1.2990569
+293,15862-07-4,Clc1cc(Cl)c(cc1Cl)c2ccccc2 ,Training,1.84,1.5515838
+294,15972-60-8,CCc1cccc(CC)c1N(COC)C(=O)CCl,Training,-1.1,-0.56652486
+295,16435-49-7,C=C(C)CCCCCCCCCC,Training,0.64,0.7796599
+296,16605-91-7,Clc2cccc(c1ccccc1)c2Cl ,Training,2.15,1.2855834
+297,16958-92-2,O=C(OCCCCCCCCCCCCC)CCCCC(=O)OCCCCCCCCCCCCC,Training,-0.43,0.86981833
+298,17109-49-8,c1ccccc1SP(=O)(OCC)Sc2ccccc2 ,Training,-1.04,-0.9953357
+299,17302-11-3,CCCCCCC(CC)CC,Training,0.75,0.552126
+300,17312-44-6,CC(C(CCCCCCC)C)C,Training,0.65,0.6741793
+301,18094-01-4,C=C(C)CCCCCCCCCCC,Training,0.73,0.91880333
+302,18181-70-9,COP(=S)(OC)Oc1cc(Cl)c(I)cc1Cl ,Training,0.86,0.8601009
+303,18516-37-5,C=C(C)CCCCCCCCC ,Training,0.17,0.64051646
+304,18708-70-8,O=N(=O)c(c(cc(c1)Cl)Cl)c1Cl ,Training,0.71,0.23330669
+305,18854-01-8,S=P(OCC)(OCC)Oc2noc(c1ccccc1)c2,Training,1.05,0.20986368
+306,19666-30-9,CC(C)Oc1cc(c(Cl)cc1Cl)N2N=C(OC2=O)C(C)(C)C ,Training,0.77,0.57913125
+307,19780-74-6,C=CCCC(CC)CCCC,Training,0.93,0.542634
+308,21609-90-5,COP(=S)(Oc1cc(Cl)c(Br)cc1Cl)c2ccccc2 ,Training,1.26,1.3467516
+309,22907-72-8,CC(C)C1CCC(C(C)C)CC1,Training,0.97,0.8306007
+310,23342-25-8,c(c(cc1CC2(C)C)C)c(C)c1CC2,Training,0.32,0.100695916
+311,25154-52-3,Oc1ccc(cc1)C(C)CC(C)CC(C)C,Training,-0.45,0.19719301
+312,25321-09-9,c(ccc1C(C)C)cc1C(C)C,Training,0.57,0.6026897
+313,26444-49-5,Cc1ccccc1OP(=O)(Oc2ccccc2)Oc3ccccc3,Training,-0.27,-0.06922988
+314,26898-17-9,Cc1cccc(c1Cc2ccccc2)Cc3ccccc3,Training,1.55,1.0347136
+315,29082-74-4,Clc(c(Cl)c(Cl)c1C(Cl)=C(Cl)Cl)c(Cl)c1Cl ,Training,2.04,2.326106
+316,29253-36-9,CC(c1cccc2c1cccc2)C ,Training,0.13,0.8942368
+317,29761-21-5,O=P(Oc1ccccc1)(Oc2ccccc2)OCCCCCCCC(C)C ,Training,-0.14,0.16614515
+318,30171-80-3,C1C(O1)COC2=CC=CC=C2C(Br)Br,Training,-1.21,-0.74775314
+319,31508-00-6,Clc1ccc(cc1Cl)c2cc(Cl)c(Cl)cc2Cl,Training,2.19,2.5035605
+320,31710-30-2,Clc2c(c(c(c(c2Cl)Cl)Cl)Cl)Oc1c(c(c(c(c1Cl)Cl)Cl)Cl)Cl,Training,1.8,2.5053213
+321,32598-11-1,Clc1ccc(Cl)c(c1)c2ccc(Cl)c(Cl)c2,Training,2.65,2.2068262
+322,32598-13-3,Clc1ccc(cc1Cl)c2ccc(Cl)c(Cl)c2,Training,1.35,2.329763
+323,32598-14-4,Clc1c(ccc(c1Cl)c2ccc(c(c2)Cl)Cl)Cl,Training,2.06,2.4021378
+324,32669-06-0,c1ccccc1C(OCCCl)c2ccccc2 ,Training,-0.07,-0.29868528
+325,32690-93-0,Clc1ccc(cc1)c2cc(Cl)c(Cl)cc2Cl,Training,2.55,2.3420568
+326,33857-26-0,Clc3ccc2Oc1cc(Cl)ccc1Oc2c3,Training,0.23,0.64084375
+327,34883-41-5,c1ccccc1c2cc(Cl)cc(Cl)c2,Training,1.11,1.4054468
+328,35065-27-1,Clc1cc(Cl)c(cc1Cl)c2cc(Cl)c(Cl)cc2Cl,Training,2.55,2.7203863
+329,35065-28-2,Clc1cc(Cl)c(cc1Cl)c2ccc(Cl)c(Cl)c2Cl,Training,2.59,2.6251101
+330,35694-06-5,Clc1ccc(c(Cl)c1)c2cc(Cl)c(Cl)c(Cl)c2Cl,Training,2.34,2.6251101
+331,35694-08-7,Clc1cc(c(Cl)c(Cl)c1Cl)c2cc(Cl)c(Cl)c(Cl)c2Cl,Training,3,3.0526147
+332,35822-46-9,Clc1c(Cl)c(Cl)c2Oc3cc(Cl)c(Cl)c(Cl)c3Oc2c1Cl,Training,1.21,1.5098323
+333,35860-37-8,CC(c1cc(cc2c1cccc2C(C)C)C(C)C)C ,Training,1.75,1.3510172
+334,36335-67-8,S=P(OCC)(NC(C)CC)Oc1c(N(=O)(=O))ccc(C)c1 ,Training,-0.2,0.26123777
+335,36559-22-5,Clc(cc(Cl)c1c(ccc2)c(Cl)c2Cl)cc1,Training,2.62,2.239097
+336,37680-65-2,Clc1ccc(Cl)c(c1)c2ccccc2Cl,Training,1.87,1.9746335
+337,37680-73-2,Clc1ccc(Cl)c(c1)c2cc(Cl)c(Cl)cc2Cl,Training,2.46,2.4052112
+338,38380-01-7,Clc1ccc(c(Cl)c1)c2cc(Cl)c(Cl)cc2Cl,Training,2.73,2.5312214
+339,38380-03-9,c1(Cl)ccc(Cl)c(Cl)c1c2cc(Cl)c(Cl)cc2,Training,2.63,2.2269528
+340,38380-05-1,Clc1ccc(c(Cl)c1Cl)c2c(Cl)ccc(Cl)c2Cl,Training,2.24,2.5021734
+341,38380-07-3,Clc1ccc(c(Cl)c1Cl)c2ccc(Cl)c(Cl)c2Cl,Training,2.64,2.5851557
+342,38411-25-5,Clc1c(c(cc(c1Cl)c2c(ccc(c2Cl)Cl)Cl)Cl)Cl,Training,2.47,2.9029434
+343,38444-73-4,Clc1ccccc1c2c(Cl)cccc2Cl,Training,2.5,1.9531195
+344,38444-77-8,Clc1ccc(cc1)c2c(Cl)cccc2Cl,Training,2.44,2.0361018
+345,38444-93-8,Clc1cccc(c1Cl)c2cccc(Cl)c2Cl,Training,2,2.191459
+346,39001-02-0,Clc3c(Cl)c(Cl)c1c(oc2c(Cl)c(Cl)c(Cl)c(Cl)c12)c3Cl,Training,1.22,1.5788774
+347,39227-28-6,C1=C2C(=CC(=C1Cl)Cl)OC3=C(O2)C(=C(C(=C3Cl)Cl)Cl)Cl,Training,1.27,1.4892753
+348,39227-58-2,Clc3cc(Cl)c2Oc1ccccc1Oc2c3Cl,Training,0.43,0.84844905
+349,40186-71-8,c1(Cl)cc(Cl)c(Cl)c(Cl)c1c2c(Cl)c(Cl)cc(Cl)c2Cl,Training,2.46,3.1242254
+350,40186-72-9,Clc1c(Cl)c(Cl)c(Cl)c(Cl)c1c2c(Cl)c(Cl)c(Cl)c(Cl)c2,Training,2.68,3.2171922
+351,40321-76-4,ClC(C1=C2OC(C=C3Cl)=C(C=C3Cl)O1)=C(C(Cl)=C2)Cl,Training,1.56,0.9839784
+352,40458-98-8,c12cc(C(C)C)ccc1ccc(C(C)C)c2,Training,0.33,1.0725065
+353,41122-70-7,N#Cc(ccc(c(ccc(c1)CCCCCC)c1)c2)c2 ,Training,0.85,1.6965033
+354,41318-75-6,BrC1=CC(Br)=CC=C1OC2=CC=C(C=C2)Br,Training,1.25,1.6137813
+355,41464-39-5,Clc1ccc(Cl)c(c1)c2cccc(Cl)c2Cl,Training,2.33,2.0777423
+356,41464-43-1,Clc(ccc1c(ccc2)c(Cl)c2Cl)c(Cl)c1,Training,2.47,2.239097
+357,41464-47-5,C1=CC(=C(C(=C1)Cl)Cl)C2=C(C=CC=C2Cl)Cl,Training,2.18,2.239097
+358,41464-51-1,Clc1cc(Cl)c(cc1Cl)c2cccc(Cl)c2Cl,Training,2.55,2.3652568
+359,42240-73-3,C1=CC(=C(C(=C1CC2=C(C(=C(C=C2)N)Cl)Cl)Cl)Cl)N,Training,1.28,0.29855627
+360,50876-32-9,C1(C)(C)CC(C)CC(C)C1,Training,2.18,0.5995057
+361,51207-31-9,Clc3cc2oc1cc(Cl)c(Cl)cc1c2cc3Cl,Training,0.56,0.8498789
+362,51655-65-3,C=C(CCCC)CCCCCCCC,Training,0.88,0.95292705
+363,51908-16-8,Clc1c(cc(cc1Cl)Cl)c2cc(c(cc2Cl)Cl)Cl,Training,2.4,2.5267608
+364,52663-68-0,Clc1c(c(c(cc1Cl)Cl)Cl)c2cc(c(cc2Cl)Cl)Cl,Training,2.45,2.9029434
+365,52663-69-1,Clc1c(c(cc(c1Cl)Cl)Cl)c2cc(c(cc2Cl)Cl)Cl,Training,2.59,2.9029434
+366,52663-70-4,Clc1c(ccc(c1Cl)Cl)c2c(c(cc(c2Cl)Cl)Cl)Cl,Training,2.5,2.9029434
+367,52663-75-9,c1(Cl)c(Cl)cc(Cl)c(Cl)c1c2c(Cl)c(Cl)c(Cl)c(Cl)c2,Training,2.47,3.1242254
+368,52663-77-1,Clc1cc(Cl)c(Cl)c(c1Cl)c2c(Cl)c(Cl)c(Cl)c(Cl)c2Cl,Training,2.63,2.9159968
+369,52712-05-7,Clc1c(c(c(c(c1Cl)Cl)Cl)Cl)c2cc(ccc2Cl)Cl,Training,2.48,2.798908
+370,52744-13-5,Clc1cc(Cl)c(Cl)c(c1)c2c(Cl)ccc(Cl)c2Cl,Training,2.32,2.535981
+371,54135-80-7,c1c(OC)c(Cl)c(Cl)c(Cl)c1,Training,1.4,1.2674062
+372,57057-83-7,COc1c(O)cc(Cl)c(Cl)c1Cl,Training,0.11,0.49654567
+373,57117-43-8,C1=CC(=C(C2=C1C3=CC(=C(C(=C3O2)Cl)Cl)Cl)Cl)Cl,Training,0.9,0.9982286
+374,57117-44-9,Clc1c(Cl)c2c3cc(Cl)c(Cl)c(Cl)c3Oc2cc1Cl,Training,1,1.2195107
+375,57653-85-7,Clc2cc1Oc3c(Oc1c(Cl)c2Cl)cc(Cl)c(Cl)c3Cl,Training,1.21,1.4892753
+376,59039-21-3,c1cc(Cl)ccc1Oc2c(Cl)cc(Cl)cc2,Training,1.72,1.5346112
+377,59080-33-0,Brc2c(c(cc(c2)Br)Br)c1ccccc1 ,Training,1.25,1.4548621
+378,59080-37-4,C1=CC(=C(C=C1Br)C2=C(C=CC(=C2)Br)Br)Br,Training,2.76,2.1591046
+379,60123-64-0,Clc2ccc(Oc1cc(Cl)c(Cl)cc1Cl)c(Cl)c2,Training,2.02,1.8422521
+380,60145-23-5,Clc1c(c(cc(c1Cl)c2c(cc(cc2Cl)Cl)Cl)Cl)Cl,Training,2.51,2.9029434
+381,60348-60-9,BrC1=CC(Br)=C(C=C1OC2=CC=C(C=C2Br)Br)Br,Training,1.95,2.0163493
+382,61328-45-8,Clc2c(cc(c(c2)Cl)Cl)Oc1ccc(cc1)Cl,Training,1.93,1.6991885
+383,61949-76-6,O=C(OCC2=CC=CC(OC3=CC=CC=C3)=C2)C1C(C)(C)C1C=C(Cl)Cl ,Training,0.37,0.44159693
+384,62338-09-4,CCCCCCCC(C)C(C)(C)C,Training,0.98,0.91548824
+385,63376-64-7,CC1=CC(=CC(=C1)CCC2=CC(=CC(=C2)C)C)C,Training,1.14,0.7704619
+386,66246-88-6,n1cncn1CC(c2c(Cl)cc(Cl)cc2)CCC,Training,1.19,1.0027459
+387,66332-96-5,C(F)(F)(F)c1ccccc1C(=O)Nc2cccc(OC(C)C)c2,Training,-0.61,0.32051104
+388,67375-30-8,ClC(Cl)=CC1C(C)(C)C1C(=O)OC(C#N)c2cccc(Oc3ccccc3)c2 ,Training,0.7,0.26376978
+389,68194-04-7,Clc1c(ccc(c1)Cl)c2c(cccc2Cl)Cl,Training,2.47,2.239097
+390,68194-05-8,Clc1ccc(c(Cl)c1)c2c(Cl)ccc(Cl)c2Cl,Training,2.61,2.4603791
+391,68515-48-0,CC(C)CCCCCCOC(=O)c1ccccc1C(=O)OCCCCCCC(C)C,Training,-0.46,0.22898969
+392,68526-85-2,CC(C)CCCCCCCO,Training,0.59,-0.3947744
+393,69806-40-2,Clc1cc(C(F)(F)F)cnc1Oc2ccc(OC(C)C(=O)OC)cc2,Training,-1.08,-0.59338576
+394,70362-45-7,Clc1c(c(ccc1Cl)Cl)c2ccccc2Cl,Training,2.38,2.239097
+395,71585-36-9,Clc1cc(Cl)c(Cl)cc1Oc2c(Cl)c(Cl)c(Cl)cc2,Training,1.75,2.0590777
+396,74472-38-1,Clc1c(c(cc(c1Cl)Cl)Cl)c2ccc(cc2)Cl,Training,1.84,2.4603791
+397,74472-42-7,Clc1c(c(cc(c1Cl)Cl)Cl)c2ccc(c(c2)Cl)Cl,Training,2.57,2.6816611
+398,74918-40-4,Clc3cccc2c3oc1c2ccc(c1)Cl,Training,0.58,0.3343824
+399,79060-60-9,Clc3c(c(c(c2c3c1c(o2)c(c(cc1)Cl)Cl)Cl)Cl)Cl,Training,0.43,1.2195107
+400,84852-15-3,Oc1ccc(cc1)CCCCCCC(C)C,Training,0.03,0.1423806
+401,85507-79-5,CCCCCCCCCCCCOC(=O)c1ccccc1C(=O)OC[C@H](CCC)[C@@H](CC)CCC,Training,-0.6,0.9588306
+402,90411-51-1,CC(C)CCCCCCOC(=O)CCCCC(=O)OCCCCCCC(C)C,Training,-0.61,-0.34575668
+403,104294-16-8,Clc1cc(Cl)ccc1Oc2c(Cl)cc(Cl)cc2Cl,Training,1.69,1.7592697
+404,106220-81-9,Clc1cc(Cl)cc(Cl)c1Oc2c(Cl)cc(Cl)c(Cl)c2,Training,2.01,1.8992597
+405,106220-83-1,Clc1cc(Cl)ccc1Oc2c(Cl)c(Cl)c(Cl)cc2Cl,Training,2.76,2.0068295
+406,107534-96-3,c1cc(Cl)ccc1CCC(O)(C(C)(C)C)Cn2ncnc2,Training,0.77,0.46551362
+407,120068-36-2,Clc1cc(C(F)(F)F)cc(Cl)c1N2C(N)=C(S(=O)(=O)C(F)(F)F)C(C#N)=N2,Training,1.05,0.27986062
+408,120068-37-3,Clc1cc(C(F)(F)F)cc(Cl)c1n2c(N)c(S(=O)C(F)(F)F)c(C(#N))n2,Training,-0.21,0.57619447
+409,182346-21-0,BrC1=C(C(Br)=CC=C1OC2=CC=C(C=C2Br)Br)Br,Training,1.34,2.0163493
+410,189084-64-8,c1c(Br)cc(Br)cc1Oc2c(Br)cc(Br)cc2Br,Training,1.95,2.0163493
+411,204256-07-5,CC1=C(C=C2C(=C1)C=CC=C2CCCC(C)C)C,Training,0.06,1.0359322
+412,207122-16-5,Brc2cc(Br)c(Br)c(Br)c2Oc1cc(Br)c(Br)cc1Br,Training,1.65,2.4189172
+413,N.A.,CCCCOC(=O)C(C)Oc1ccc(Oc2c(F)cc(N)cc2)cc1,Training,-0.78,-0.4594743
+414,N.A.,CN(C)C1CCC(OC1C)OC6CCCC(CC)OC(=O)CC5\C(=C/C3C5/C=C(/C)C2CC(CC23)OC4OC(C)C(OC)C(OCC)C4OC)C(=O)C6C,Training,0.49,0.5870198
+415,N.A.,C1C[C@H](O[C@H]2CCC[C@@H](OC(C[C@@H]3C(C([C@@H]2C)=O)=C[C@@H]2[C@H]3C=C([C@H]3[C@H]2C[C@@H](C3)O[C@@H]2O[C@H]([C@@H]([C@H]([C@H]2OC)OC)OC)C)C)=O)CC)O[C@@H](C)[C@H]1N(C)C,Training,0.45,0.44787636
+416,N.A.,C12C(CCCC1)CCC(C(C)C)C2,Training,0.91,1.4610907
+417,N.A.,c1ccccc1CCCC(C)(C)(C),Training,0.01,0.2907262
+418,N.A.,CC(C)CC1C(C)CCC(C)C1,Training,0.8,0.9623733
+419,N.A.,c12c3c4cccc3ccc1c(CCCCCCCC)ccc2C=C4,Training,1.26,0.6979975
+420,N.A.,c(c(c(cc1))cc(C)c2)(c2)c1,Training,1.02,0.61664045
+421,N.A.,c1(C)c2c(cc(C)c1)cccc2,Training,0.68,0.57729304
+422,N.A.,CCCCCCC(C)(c1ccc(OC(F)(F)C(F)F)cc1)c1ccc(OC(F)(F)C(F)F)cc1,Test,1.66,3.444117
+423,N.A.,CC(C)C(C)C(C)(C)c1ccc(OC(F)(F)C(F)F)cc1,Test,0.4,1.7721852
+424,06/01/2001,Brc1ccc(Oc2ccc(Br)c(Br)c2)cc1Br,Test,2.25,1.8150654
+425,53-19-0,ClC(Cl)C(c1ccc(Cl)cc1)c1ccccc1Cl,Test,1.65,2.0608144
+426,56-23-5,ClC(Cl)(Cl)Cl,Test,-1.19,0.08309249
+427,56-55-3,c1ccc2cc3c(ccc4ccccc34)cc2c1,Test,0.02,0.48169786
+428,57-74-9,ClC1CC2C(C1Cl)C1(Cl)C(Cl)=C(Cl)C2(Cl)C1(Cl)Cl,Test,2.37,2.0908933
+429,59-50-7,Cc1cc(O)ccc1Cl,Test,-1.28,-0.58244365
+430,63-25-2,CNC(=O)Oc1cccc2ccccc12,Test,-1.18,-0.6714367
+431,67-66-3,ClC(Cl)Cl,Test,-0.76,-0.34651762
+432,72-20-8,C1C2C3C(C1C4C2O4)C5(C(=C(C3(C5(Cl)Cl)Cl)Cl)Cl)Cl,Test,1.57,2.0437942
+433,74-97-5,ClCBr,Test,-0.74,-0.7770138
+434,75-65-0,CC(C)(C)O,Test,-1.13,-1.2442288
+435,76-44-8,ClC1C=CC2C1C1(Cl)C(Cl)=C(Cl)C2(Cl)C1(Cl)Cl,Test,1.45,1.9928267
+436,78-42-2,CCCCC(CC)COP(=O)(OCC(CC)CCCC)OCC(CC)CCCC,Test,-0.29,1.0243033
+437,79-00-5,ClCC(Cl)Cl,Test,-1.01,-0.3828973
+438,79-92-5,CC1(C)C2CCC(C2)C1=C,Test,0.96,0.56388825
+439,82-05-3,O=C1c2ccccc2-c2cccc3cccc1c23,Test,-0.69,-0.4118757
+440,82-44-0,Clc1cccc2C(=O)c3ccccc3C(=O)c12,Test,-0.23,-0.20655979
+441,84-15-1,c1ccc(cc1)-c1ccccc1-c1ccccc1,Test,0.86,1.5561111
+442,85-01-8,c1ccc2c(c1)ccc1ccccc21,Test,0.7,0.40704536
+443,85-22-3,CCC1=C(C(=C(C(=C1Br)Br)Br)Br)Br,Test,0.02,1.119553
+444,88-73-3,Clc1ccccc1N(=O)=O,Test,-0.58,-0.19259952
+445,89-63-4,Nc1ccc(Cl)cc1N(=O)=O,Test,-0.96,-0.7051765
+446,95-63-6,Cc1ccc(C)c(C)c1,Test,-0.31,-0.08558969
+447,95-77-2,Oc1ccc(Cl)c(Cl)c1,Test,-0.92,-0.2770958
+448,95-78-3,Cc1ccc(C)c(N)c1,Test,-0.99,-0.916627
+449,96-12-8,ClCC(Br)CBr,Test,-1.14,-0.46845472
+450,96-29-7,CCC(C)=NO,Test,-1.33,-1.1141083
+451,96-96-8,COc1ccc(N)c(c1)N(=O)=O,Test,-0.87,-1.13571
+452,97-23-4,Oc1ccc(Cl)cc1Cc1cc(Cl)ccc1O,Test,-0.51,-0.3450881
+453,98-15-7,FC(F)(F)c1cccc(Cl)c1,Test,0.64,0.7617928
+454,98-51-1,Cc1ccc(cc1)C(C)(C)C,Test,0.31,0.8372274
+455,98-54-4,CC(C)(C)c1ccc(O)cc1,Test,-0.87,-0.3030507
+456,98-83-9,CC(=C)c1ccccc1,Test,-0.71,-0.046484616
+457,99-08-1,Cc1cccc(c1)N(=O)=O,Test,-0.79,-0.4571323
+458,99-09-2,Nc1cccc(c1)N(=O)=O,Test,-0.77,-1.2896755
+459,99-54-7,Clc1ccc(cc1Cl)N(=O)=O,Test,-0.27,0.028682552
+460,99-62-7,CC(C)c1cccc(c1)C(C)C,Test,0.56,0.6026897
+461,100-18-5,CC(C)c1ccc(cc1)C(C)C,Test,0.6,0.6026897
+462,100-40-3,C=CC1CCC=CC1,Test,-0.41,0.2877516
+463,101-61-1,CN(C)c1ccc(Cc2ccc(cc2)N(C)C)cc1,Test,-0.04,-0.06516878
+464,103-50-4,C(OCc1ccccc1)c1ccccc1,Test,0.63,-1.1225101
+465,103-69-5,CCNc1ccccc1,Test,-0.65,-0.90283245
+466,104-40-5,CCCCCCCCCc1ccc(O)cc1,Test,-0.23,0.12324386
+467,105-05-5,CCc1ccc(CC)cc1,Test,-0.01,0.18059787
+468,106-37-6,Brc1ccc(Br)cc1,Test,0.31,0.45346117
+469,106-47-8,Nc1ccc(Cl)cc1,Test,-0.61,-0.5751895
+470,106-48-9,Oc1ccc(Cl)cc1,Test,-0.41,-0.5891974
+471,107-39-1,CC(=C)CC(C)(C)C,Test,0.12,0.27968335
+472,107-50-6,C[Si]1(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O1,Test,1.48,1.7480016
+473,108-43-0,Oc1cccc(Cl)c1,Test,-0.68,-0.5553898
+474,108-60-1,CC(CCl)OC(C)CCl,Test,-1.07,-0.3590128
+475,108-87-2,CC1CCCCC1,Test,0.57,0.05954446
+476,109-69-3,CCCCCl,Test,-0.45,-0.25049978
+477,110-02-1,S1C=CC=C1,Test,-0.82,-0.38789654
+478,111-84-2,CCCCCCCCC,Test,0.97,0.32505295
+479,117-79-3,Nc1ccc2C(=O)c3ccccc3C(=O)c2c1,Test,-1.06,-1.3036358
+480,118-83-2,FC(F)(F)c1cc(Cl)ccc1N(=O)=O,Test,-0.36,0.23518072
+481,119-61-9,O=C(c1ccccc1)c1ccccc1,Test,-1.17,-0.60511357
+482,120-82-1,Clc1ccc(Cl)c(Cl)c1,Test,1.2,0.7095146
+483,121-14-2,Cc1ccc(cc1N(=O)=O)N(=O)=O,Test,-0.22,-0.9768292
+484,121-75-5,CCOC(=O)CC(SP(=S)(OC)OC)C(=O)OCC,Test,0.29,-2.1666455
+485,127-18-4,ClC(Cl)=C(Cl)Cl,Test,-0.88,0.52590644
+486,129-00-0,c1cc2ccc3cccc4ccc(c1)c2c34,Test,0.32,-0.2547406
+487,131-09-9,Clc1ccc2C(=O)c3ccccc3C(=O)c2c1,Test,-0.36,-0.20655979
+488,132-65-0,c1ccc2c(c1)sc1ccccc21,Test,0.83,0.05502181
+489,134-32-7,Nc1cccc2ccccc12,Test,-0.24,-0.2606825
+490,198-55-0,c1cc2cccc3c4cccc5cccc(c(c1)c23)c45,Test,-0.06,-0.007157398
+491,206-44-0,c1ccc2c(c1)c1cccc3cccc2c13,Test,-0.02,-0.052479915
+492,207-08-9,c1ccc2cc3c4cccc5cccc(c3cc2c1)c45,Test,-0.06,0.5276687
+493,299-84-3,COP(=S)(OC)Oc1cc(Cl)c(Cl)cc1Cl,Test,0.95,1.0650593
+494,309-00-2,ClC1=C(Cl)C2(Cl)C3C4CC(C=C4)C3C1(Cl)C2(Cl)Cl,Test,1.37,2.1004777
+495,319-84-6,ClC1C(Cl)C(Cl)C(Cl)C(Cl)C1Cl,Test,1.23,1.1439793
+496,319-85-7,ClC1C(Cl)C(Cl)C(Cl)C(Cl)C1Cl,Test,1.44,1.1439793
+497,479-27-6,Nc1cccc2cccc(N)c12,Test,-0.73,-1.0993353
+498,493-02-7,C1CCC2CCCCC2C1,Test,1.5,0.9460679
+499,535-77-3,CC(C)c1cccc(C)c1,Test,0.07,0.43573657
+500,541-02-6,C[Si]1(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O[Si](C)(C)O1,Test,2.74,1.5613008
+501,544-01-4,CC(C)CCOCCC(C)C,Test,-0.45,-0.08864081
+502,554-00-7,Nc1ccc(Cl)cc1Cl,Test,-0.65,-0.2600144
+503,554-84-7,Oc1cccc(c1)N(=O)=O,Test,-0.49,-1.1357825
+504,579-10-2,CN(C(C)=O)c1ccccc1,Test,-1.12,-1.3795654
+505,581-40-8,Cc1cc2ccccc2cc1C,Test,0.03,0.5711462
+506,591-20-8,Oc1cccc(Br)c1,Test,-0.95,-0.6807141
+507,608-93-5,Clc1cc(Cl)c(Cl)c(Cl)c1Cl,Test,1.87,1.1380947
+508,612-22-6,CCc1ccccc1N(=O)=O,Test,-0.56,-0.34641686
+509,623-26-7,N#Cc1ccc(cc1)C#N,Test,-0.81,-0.6338397
+510,626-39-1,Brc1cc(Br)cc(Br)c1,Test,1.65,0.60249704
+511,629-59-4,CCCCCCCCCCCCCC,Test,1.49,1.0156066
+512,634-93-5,Nc1c(Cl)cc(Cl)cc1Cl,Test,0.67,-0.009381156
+513,789-02-6,Clc1ccc(cc1)C(c1ccccc1Cl)C(Cl)(Cl)Cl,Test,1.71,2.5092032
+514,832-69-9,Cc1cccc2c1ccc1ccccc21,Test,0.63,0.38613838
+515,872-05-9,CCCCCCCCC=C,Test,0.65,0.6000684
+516,920-66-1,OC(C(F)(F)F)C(F)(F)F,Test,-1.32,-0.43129197
+517,935-95-5,Oc1c(Cl)c(Cl)cc(Cl)c1Cl,Test,-0.1,-0.06165746
+518,947-72-8,Clc1cc2ccccc2c2ccccc12,Test,1.8,0.59298307
+519,950-37-8,COC1=NN(CSP(=S)(OC)OC)C(=O)S1,Test,-1.15,-0.70223194
+520,1330-78-5,CC1=CC=C(C=C1)OP(=O)(OC2=CC=C(C=C2)C)OC3=CC=C(C=C3)C,Test,0.55,1.0506676
+521,1460-02-2,CC(C)(C)c1cc(cc(c1)C(C)(C)C)C(C)(C)C,Test,2.7,1.886054
+522,1490-04-6,CC(C)C1CCC(C)CC1O,Test,-1.19,-0.105282746
+523,1570-64-5,Cc1cc(Cl)ccc1O,Test,-0.83,-0.7268944
+524,1634-78-2,CCOC(=O)CC(SP(=O)(OC)OC)C(=O)OCC,Test,-1.04,-3.4910178
+525,1795-15-9,CCCCCCCCC1CCCCC1,Test,1.1,1.0625088
+526,1836-77-7,Clc1cc(Cl)c(Oc2ccc(cc2)N(=O)=O)c(Cl)c1,Test,0.75,0.95897794
+527,1839-63-0,CC1CC(C)CC(C)C1,Test,1.71,0.56203306
+528,2173-57-1,CC(C)COc1ccc2ccccc2c1,Test,0.23,0.87332374
+529,2243-62-1,Nc1cccc2c(N)cccc12,Test,-0.52,-1.3728698
+530,2437-56-1,CCCCCCCCCCCC=C,Test,0.73,0.8380109
+531,2636-26-2,COP(=S)(OC)Oc1ccc(cc1)C#N,Test,0.23,0.1521249
+532,2668-47-5,CC(C)(C)c1cc(cc(c1O)C(C)(C)C)-c1ccccc1,Test,1.16,1.1502675
+533,2980-71-4,CCCCCCCC(C)=C,Test,-0.06,0.36222962
+534,3194-55-6,C1CC(C(CCC(C(CCC(C1Br)Br)Br)Br)Br)Br,Test,2.07,1.4909073
+535,3229-00-3,BrCC(CBr)(CBr)CBr,Test,0.76,-0.41280228
+536,3674-75-7,CCc1cc2ccccc2c2ccccc12,Test,0.29,0.4391657
+537,3761-42-0,COP(=S)(OC)Oc1ccc(c(C)c1)S(C)(=O)=O,Test,-0.03,-0.10532902
+538,3811-49-2,COP1(=S)OCc2ccccc2O1,Test,-1.15,-0.5804532
+539,4130-42-1,CCc1cc(c(O)c(c1)C(C)(C)C)C(C)(C)C,Test,0.86,0.41239047
+540,909-55-4,CC(CC(C)(C)C)CC(C)(C)CC(C)(C)C,Test,1.81,1.4689456
+541,5103-71-9,ClC1CC2C(C1Cl)C1(Cl)C(Cl)=C(Cl)C2(Cl)C1(Cl)Cl,Test,1.87,2.0908933
+542,5325-97-3,C1CCc2c(C1)ccc1CCCCc21,Test,0.76,0.5439181
+543,5510-99-6,CCC(C)c1cccc(C(C)CC)c1O,Test,-0.22,-0.36847708
+544,5566-34-7,ClC1=C(Cl)C2(Cl)C3CC(Cl)(Cl)CC3C1(Cl)C2(Cl)Cl,Test,2.23,2.1218276
+545,5617-41-4,CCCCCCCC1CCCCC1,Test,0.17,0.9233654
+546,6165-51-1,CC(c1ccccc1)c1cc(C)ccc1C,Test,0.1,0.6863609
+547,7116-96-3,CCCCCc1ccc(cc1)-c1ccccc1,Test,0.03,1.370029
+548,13116-53-5,ClCC(Cl)(Cl)CCl,Test,-0.28,0.025700282
+549,13150-81-7,CCCCC(C)CCCC(C)C,Test,0.32,0.6741793
+550,13151-34-3,CCCCCCCC(C)CC,Test,0.56,0.552126
+551,13358-11-7,CCCCC(CC)CN1C(=O)C2C(C1=O)C1(CCC2(C)C=C1)C(C)C,Test,0.31,0.8275467
+552,13540-50-6,CC1=CC(=C(C=C1)C)CC2=CC=CC=C2,Test,0.45,0.5697612
+553,14816-18-3,CCOP(=S)(OCC)ON=C(C#N)c1ccccc1,Test,0.84,0.23862892
+554,15087-24-8,CC1(C)C2CCC1(C)C(=O)C2=Cc1ccccc1,Test,-0.21,0.8846697
+555,15254-25-8,Cc1cc2cc3cc(C)c(C)cc3cc2cc1C,Test,0.59,0.1986981
+556,16219-75-3,CC=C1CC2CC1C=C2,Test,-0.56,1.0322667
+557,16606-02-3,Clc1ccc(cc1)-c1cc(Cl)ccc1Cl,Test,1.91,2.0176613
+558,17088-22-1,CCc1ccc2C=Cc3cccc4ccc1c2c34,Test,0.24,-0.17098677
+559,17301-23-4,CCCCCC(C)CCCC(C)C,Test,1.02,0.8133228
+560,17700-09-3,Clc1ccc(c(Cl)c1Cl)N(=O)=O,Test,-0.19,0.20871927
+561,19408-74-3,Clc1cc2Oc3cc(Cl)c(Cl)c(Cl)c3Oc2c(Cl)c1Cl,Test,1.3,1.4892753
+562,20020-02-4,Clc1c(Cl)c(Cl)c2ccccc2c1Cl,Test,1.2,1.5017765
+563,21564-17-0,N#CSCSC1=Nc2ccccc2S1,Test,-1.01,-0.9630366
+564,25311-71-1,CCOP(=S)(NC(C)C)Oc1ccccc1C(=O)OC(C)C,Test,-0.51,-0.23749216
+565,26087-47-8,CC(C)OP(=O)(OC(C)C)SCc1ccccc1,Test,-1.2,-1.2906375
+566,26952-20-5,CC(C)CCCCCOC(=O)C1=NC(=C(C(=C1Cl)N)Cl)Cl,Test,0.45,-1.200962
+567,28076-73-5,Clc1ccc(Oc2ccc(Cl)cc2Cl)c(Cl)c1,Test,2.28,1.6868949
+568,28106-30-1,CCc1ccccc1C=C,Test,0.16,0.5318003
+569,28249-77-6,CCN(CC)C(=O)SCc1ccc(Cl)cc1,Test,0.66,-0.7121227
+570,28575-17-9,c1(c2cc(CC)ccc2)cc(CC)ccc1,Test,1.24,1.4888983
+571,29446-15-9,Clc1cc2Oc3ccccc3Oc2cc1Cl,Test,0.33,0.60414714
+572,30746-58-8,Clc1c(Cl)c(Cl)c2Oc3ccccc3Oc2c1Cl,Test,1.02,1.0467112
+573,32598-10-0,Clc1ccc(c(Cl)c1)-c1ccc(Cl)c(Cl)c1,Test,2.07,2.2314136
+574,33460-02-5,C1CCC(CC1)C1CCCC(C1)c1ccccc1,Test,0.45,1.0655365
+575,33576-92-0,COP(=S)(OC)Oc1ccccc1,Test,0.75,-0.17632337
+576,34883-39-1,Clc1ccc(Cl)c(c1)-c1ccccc1,Test,2.38,1.3101708
+577,36065-30-2,CC(Br)(CBr)COc1c(Br)cc(Br)cc1Br,Test,2.21,0.92095494
+578,38380-02-8,Clc1ccc(Cl)c(c1)-c1ccc(Cl)c(Cl)c1Cl,Test,2.31,2.4205782
+579,38380-08-4,Clc1ccc(cc1Cl)-c1cc(Cl)c(Cl)c(Cl)c1Cl,Test,2.73,2.674285
+580,38411-22-2,Clc1ccc(Cl)c(c1Cl)-c1c(Cl)ccc(Cl)c1Cl,Test,2.34,2.5267608
+581,38444-85-8,Clc1ccc(cc1)-c1cccc(Cl)c1Cl,Test,2.16,1.9346789
+582,39635-31-9,Clc1cc(cc(Cl)c1Cl)-c1cc(Cl)c(Cl)c(Cl)c1Cl,Test,2.32,2.9029434
+583,51630-58-1,CC(C)C(C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1)c1ccc(Cl)cc1,Test,0.69,0.09831502
+584,52663-58-8,Clc1ccc(cc1)-c1c(Cl)ccc(Cl)c1Cl,Test,2.35,2.239097
+585,52663-71-5,Clc1ccc(c(Cl)c1Cl)-c1c(Cl)cc(Cl)c(Cl)c1Cl,Test,2.52,2.9029434
+586,52663-72-6,Clc1cc(Cl)c(cc1Cl)-c1cc(Cl)c(Cl)c(Cl)c1,Test,2.43,2.6435509
+587,52663-74-8,Clc1cc(Cl)c(Cl)c(c1)-c1cc(Cl)c(Cl)c(Cl)c1Cl,Test,2.51,2.9029434
+588,52663-78-2,Clc1ccc(c(Cl)c1Cl)-c1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl,Test,2.54,3.1242254
+589,52663-79-3,Clc1cc(Cl)c(c(Cl)c1Cl)-c1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl,Test,2.66,3.3455074
+590,52886-35-8,CCCCCCC1CCCC(C)C1,Test,0.97,1.038048
+591,52918-63-5,CC1(C)C(C=C(Br)Br)C1C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1,Test,0.51,-0.089676775
+592,57018-04-9,COP(=S)(OC)Oc1c(Cl)cc(C)cc1Cl,Test,-0.11,0.7320506
+593,57117-31-4,Clc1cc2oc3c(Cl)c(Cl)c(Cl)cc3c2cc1Cl,Test,1.36,0.99294233
+594,57465-28-8,Clc1ccc(cc1Cl)-c1cc(Cl)c(Cl)c(Cl)c1,Test,2.4,2.4603791
+595,59261-08-4,Brc1cc(Br)c(c(Br)c1)-c1c(Br)cc(Br)cc1Br,Test,2.66,2.5616727
+596,59365-60-5,OCC(O)c1ccccc1Cl,Test,-1.13,-1.1661979
+597,60145-20-2,Clc1cc(Cl)c(Cl)c(c1)-c1cccc(Cl)c1Cl,Test,2.44,2.4603791
+598,60168-88-9,OC(C1=CC=C(Cl)C=C1)(C1=CN=CN=C1)C1=C(Cl)C=CC=C1,Test,0.57,1.1903532
+599,60207-90-1,CCCC1COC(Cn2cncn2)(O1)c1ccc(Cl)cc1Cl,Test,0.7,0.60984117
+600,60782-58-3,CCCCCC[Si](O)(CCCCCC)CCCCCC,Test,0.04,1.8788803
+601,60851-34-5,Clc1cc2-c3cc(Cl)c(Cl)c(Cl)c3Oc2c(Cl)c1Cl,Test,1.12,1.2195107
+602,67562-39-4,Clc1cc2c(oc3c(Cl)c(Cl)c(Cl)c(Cl)c23)c(Cl)c1Cl,Test,0.9,1.3466846
+603,68194-14-9,Clc1ccc(Cl)c(c1)-c1c(Cl)cc(Cl)c(Cl)c1Cl,Test,2.23,2.6816611
+604,68515-47-9,CC(C)CCCCCCCCCCOC(=O)C1=CC=CC=C1C(=O)OCCCCCCCCCCC(C)C,Test,-0.61,1.3421371
+605,68515-49-1,CC(C)CCCCCCCOC(=O)C1=CC=CC=C1C(=O)OCCCCCCCC(C)C,Test,-0.47,0.50727654
+606,68526-86-3,CC(C)CCCCCCCCCCO,Test,0.08,0.022655878
+607,70362-46-8,Clc1cc(Cl)c(Cl)c(c1)-c1ccccc1Cl,Test,2.8,2.239097
+608,70362-50-4,Clc1ccc(cc1)-c1cc(Cl)c(Cl)c(Cl)c1,Test,1.69,2.239097
+609,71859-30-8,Clc1cc(Cl)c(Oc2cc(Cl)c(Cl)cc2Cl)cc1Cl,Test,1.98,1.9699484
+610,71888-89-6,CC(C)CCCCOC(=O)c1ccccc1C(=O)OCCCCC(C)C,Test,0.13,-0.32758403
+611,74472-33-6,Clc1cccc(c1)-c1c(Cl)ccc(Cl)c1Cl,Test,2.47,2.239097
+612,74472-34-7,Clc1ccc(cc1)-c1cc(Cl)cc(Cl)c1Cl,Test,2.43,2.239097
+613,74472-37-0,Clc1ccc(cc1)-c1cc(Cl)c(Cl)c(Cl)c1Cl,Test,2.36,2.4603791
+614,74472-44-9,Clc1ccc(cc1Cl)-c1c(Cl)c(Cl)cc(Cl)c1Cl,Test,2.61,2.551348
+615,74472-53-0,Clc1cc(cc(Cl)c1Cl)-c1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl,Test,2.65,3.1242254
+616,81406-37-3,CCCCCCC(C)OC(=O)COc1nc(F)c(Cl)c(N)c1Cl,Test,-0.61,-0.83816653
+617,83992-69-2,Clc1cc(Cl)c(Oc2cc(Cl)c(Cl)c(Cl)c2Cl)cc1Cl,Test,1.97,2.2205818
+618,112281-77-3,FC(F)C(F)(F)OCC(Cn1cncn1)c1ccc(Cl)cc1Cl,Test,1.23,0.75656337
+619,125116-23-6,CC1(C)CCC(Cc2ccc(Cl)cc2)C1(O)Cn1cncn1,Test,0.23,0.4412166
+620,126690-66-2,CC(C)CC(C)=CC(C)C,Test,0.92,0.7872287
+621,156052-68-5,CCC(C)(NC(=O)C1=CC(Cl)=C(C)C(Cl)=C1)C(=O)CCl,Test,0.16,-0.51992285
+622,169107-21-5,CCC(C)CC(C)CCCCOCCOCCOCCO,Test,0.45,-0.7890892
+623,182677-30-1,Brc1ccc(Oc2cc(Br)c(Br)cc2Br)c(Br)c1Br,Test,1.55,2.2176332
+624,189084-68-2,BrC1=CC=C(OC2=C(Br)C(Br)=C(Br)C(Br)=C2Br)C=C1Br,Test,1.58,2.4189172
+625,207122-15-4,Brc1cc(Br)c(Oc2cc(Br)c(Br)cc2Br)c(Br)c1,Test,2.03,2.2176332
+626,N.A.,COC(=O)C(C)Oc1ccc(Oc2ncc(cc2F)C(F)(F)F)cc1,Test,-1.32,-0.6490843
+627,N.A.,CCOC1C(OC)C(C)OC(OC2CC3CCC4C5CC(=O)OC(CC)CCCC(OC6CCC(C(C)O6)N(C)C)C(C)C(=O)C5=CC4C3C2)C1OC,Test,0.34,0.16654365
+628,N.A.,CCCC1CCCC(OC2CCC(C(C)O2)N(C)C)C(C)C(=O)C2=CC3C4CC(CC4C=CC3C2CC(=O)C1)OC1OC(C)C(O)C(O)C1O,Test,0.41,0.4162039
+629,N.A.,CCCCc1ccc2cc(C)c(C)cc2c1,Test,0.24,0.8088591
+630,N.A.,CCCCCCC1CCC2=CC=CC=C2C1,Test,0.63,0.8795656
+631,N.A.,Cc1ccc2cc(C)c(C)cc2c1,Test,0.57,0.36086914
