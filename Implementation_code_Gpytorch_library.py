@@ -14,11 +14,10 @@ from rdkit.Chem import AllChem, Descriptors, MolFromSmiles
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 import numpy as np
-#import tensorflow as tf
 from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 from sklearn.model_selection import train_test_split
 import warnings
-from property_prediction.data_utils import transform_data, TaskDataLoader, featurise_mols
+from property_prediction.data_utils import transform_data 
 
 
 import os
@@ -26,9 +25,13 @@ smoke_test = ('CI' in os.environ)
 training_iter = 2 if smoke_test else 50
 torch.set_printoptions(precision=10)
 
+# ============================Import Data================================= #
 df = pd.read_csv('dataset_DAPHNIA_DEMETRA.csv')
 
-# data split
+# ============================Data Split================================== #
+"""
+Data split into training, testing set
+"""
 Train_data = df.loc[df['Status'] == 'Training']  
 Test_data = df.loc[df['Status'] == 'Test']  
 
@@ -40,15 +43,11 @@ y_train_qsar = Train_data['Predicted value [-log(mol/l)]'].to_numpy()
 X_test_smiles = Test_data['SMILES'].to_list()
 y_test_smiles = Test_data['Experimental value [-log(mol/l)]'].to_numpy()
 y_test_qsar  = Test_data['Predicted value [-log(mol/l)]'].to_numpy()
-# from math import sqrt
-# coefficient_of_dermination = r2_score(y_train_smiles, y_train_qsar)
-# rms = sqrt(mean_squared_error(y_train_smiles, y_train_qsar))
-# mae = mean_absolute_error(y_train_smiles, y_train_qsar)
 
-# print(coefficient_of_dermination, rms, mae)
-
-
-# X = featurise_mols(X_s, 'fingerprints')
+"""
+Loading smiles from the daphnia_demetra dataset, We import MACCSKeys and Morganfingerprint
+bit vectors using RDkit library. The molecule is converted into bit vector in this step.
+"""
 # Convert X_train X_test smiles to MACCSkeys 
 rdkit_mols1 = [MolFromSmiles(smiles) for smiles in X_train_smiles]
 X_train1 = [AllChem.GetMACCSKeysFingerprint(mol) for mol in rdkit_mols1]
@@ -67,12 +66,8 @@ rdkit_mols4 = [MolFromSmiles(smiles) for smiles in X_test_smiles]
 X_test2 = [AllChem.GetMorganFingerprintAsBitVect(mol, 5, 512 ) for mol in rdkit_mols4]
 X_test2 = np.asarray(X_test2)
 
-# X_train = featurise_mols(X_train_smiles, 'fingerprints')
-# X_test = featurise_mols(X_test_smiles, 'fingerprints')
-
 X_train = np.concatenate((X_train1, X_train2), axis = 1)
 X_test = np.concatenate((X_test1, X_test2), axis = 1)
-
 
 y_train = y_train_smiles.reshape(-1,1)
 y_test = y_test_smiles.reshape(-1,1)
@@ -89,7 +84,10 @@ train_y = torch.Tensor(y_train.reshape(-1,))
 test_X = torch.Tensor(X_test)
 test_y = torch.Tensor(y_test)
 # =================Kerenl implementation=========================================
-
+"""
+Kernel is the parameter that defines relationship between the points.
+The kernel is implemented using gpytorch library.
+"""
 def broadcasting_elementwise(op, a, b):
     
     # Apply binary operation `op` to every pair in tensors `a` and `b`.
@@ -212,28 +210,13 @@ for i in range(training_iter):
  
 # =============================================================================    
 # gp for predictions
-
+""" 
+In the predictions we evaluate the model and estimate the likelihood.
+further performing the predictions on the test set.
+"""
 model.eval()
 likelihood.eval()
-
-
-# with torch.no_grad():
-#     observed_pred1 = likelihood(model(train_X))
-    
-# Z_t1 = observed_pred1.mean.numpy().reshape(-1,1)
-# y_pred1 = y_scaler.inverse_transform(Z_t1)
-# y_test2 = y_scaler.inverse_transform(y_train)
-
-
-# score = r2_score(y_test2, y_pred1)
-# rmse = np.sqrt(mean_squared_error(y_test2, y_pred1))
-# mae = mean_absolute_error(y_test2, y_pred1)
-
-# print("\nR^2: {:.3f}".format(score))
-# print("RMSE: {:.3f}".format(rmse))
-# print("MAE: {:.3f}".format(mae))
-
-# prediction with validation set
+# prediction on test set
 with torch.no_grad():
     observed_pred = likelihood(model(test_X))
     
@@ -251,6 +234,10 @@ print("RMSE: {:.3f}".format(rmse))
 print("MAE: {:.3f}".format(mae))
 
 #=================================================
+"""
+we test the training set using the model and use the results 
+in applicability domain implementation.
+"""
 with torch.no_grad():
     observed_pred1 = likelihood(model(train_X))
 Z_t1 = observed_pred1.mean.numpy().reshape(-1,1)
@@ -261,15 +248,14 @@ score1 = r2_score(y_train1, y_pred_train)
 rmse1 = np.sqrt(mean_squared_error(y_train1, y_pred_train))
 mae1 = mean_absolute_error(y_train1, y_pred_train)
 
-print("\nR^2: {:.3f}".format(score1))
-print("RMSE: {:.3f}".format(rmse1))
-print("MAE: {:.3f}".format(mae1))
+# print("\nR^2: {:.3f}".format(score1))
+# print("RMSE: {:.3f}".format(rmse1))
+# print("MAE: {:.3f}".format(mae1))
 
 # ================================================
-
+# we plot graph between experimental and predicted values.
 f_var = observed_pred.variance
 f_covar = observed_pred.covariance_matrix
-# #f_samples = observed_pred1.sample(sample_shape=torch.Size(59,))
 
 f_sd = []
 for i in f_var:
@@ -280,8 +266,6 @@ f_sd1 = np.array(f_sd).reshape(-1,)
 with torch.no_grad():
     # Initialize plot
     f, ax = plt.subplots(1, 1, figsize=(14, 7))
-    # Get upper and lower confidence bounds
-    #lower, upper = observed_pred1.confidence_region()
     #Plot training data as black stars
     ax.plot(test_y, Z_t, 'k*', label = "Molecule Test Data")
     # Plot predictive means as blue line
